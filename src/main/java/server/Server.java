@@ -15,11 +15,8 @@ public class Server extends UnicastRemoteObject implements RemoteInterface, Runn
 
     @Override
     public String send(String message) throws RemoteException {
-        // ChatBot cBot = new ChatBot("auxiliar/menssage.txt");
-
         System.out.println("Client message: " + message);
         return message;
-        // return cBot.Mensagem(message);
     }
 
     @Override

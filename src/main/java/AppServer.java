@@ -1,5 +1,4 @@
 import java.rmi.RemoteException;
-
 import rmi.RemoteMethodInvocationRegistry;
 import server.Server;
 
